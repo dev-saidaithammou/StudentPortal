@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/dev-saidaithammou/StudentPortal.git'
+                echo 'Code already downloaded from GitHub'
             }
         }
 
